@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import TourCard from './TourCard';
+import '../styles/Gallery.css';
 
 const Gallery = ({ tours, setTours, onRemove }) => {
     const [isLoading, setIsLoading] = useState(true);
